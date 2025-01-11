@@ -19,7 +19,7 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Welcome to my blog!'
+homeIntroTitle = 'Welcome!'
 homeIntroContent = """
 I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
 """
