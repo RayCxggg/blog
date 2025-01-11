@@ -1,4 +1,4 @@
 
-title = "Posts"
-date = {{ .Date }}
-draft = false
+# Post 1
+
+This is my first post.
