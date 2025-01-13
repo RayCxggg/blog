@@ -13,8 +13,6 @@ googleAnalytics = "G-xxxxxxxxx"
 # Meta description
 description = "A Tech Blog"
 
-faviconPath = '/theme/typo/static/'
-
 # Appearance settings
 theme = 'auto'
 colorPalette = 'default'
