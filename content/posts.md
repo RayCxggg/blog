@@ -1,8 +1,8 @@
 ---
-title: "Log-Structured Merge Tree"
-date: "2023-11-12"
-summary: "An LSM Tree overview and Java implementation."
-description: "An LSM Tree overview and Java implementation."
+title: "My First Post"
+date: "2025-1-14"
+summary: "My First Post."
+description: "Hello!"
 toc: true
 readTime: true
 autonumber: true
@@ -12,6 +12,4 @@ showTags: true
 hideBackToTop: true
 ---
 
-# Post 1
-
-This is my first post.
+Hello World!
