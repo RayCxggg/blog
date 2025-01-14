@@ -8,7 +8,7 @@ readTime: true
 autonumber: true
 math: true
 tags: ["database", "java"]
-showTags: false
+showTags: true
 hideBackToTop: true
 ---
 
