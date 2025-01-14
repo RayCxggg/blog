@@ -13,9 +13,6 @@ googleAnalytics = "G-xxxxxxxxx"
 # Meta description
 description = "A Tech Blog"
 
-# Collection page params
-singleDateFormat = 'Jan 2, 2006'
-
 # Appearance settings
 theme = 'auto'
 colorPalette = 'default'

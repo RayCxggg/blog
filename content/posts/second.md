@@ -10,6 +10,7 @@ math: true
 tags: ["database", "java"]
 showTags: false
 hideBackToTop: true
+hidePagination: true
 ---
 
 Hello World!
