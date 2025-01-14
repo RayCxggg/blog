@@ -35,7 +35,7 @@ homeCollection = 'posts'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = 'January 6, 2006'
 
 # Breadcrumbs
 # breadcrumbs = true
