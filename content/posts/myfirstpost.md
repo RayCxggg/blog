@@ -4,11 +4,11 @@ date: "2025-1-14"
 summary: "My First Post."
 description: "Hello!"
 toc: true
-readTime: true
+readTime: false
 autonumber: true
 math: true
 tags: ["database", "java"]
-showTags: true
+showTags: false
 hideBackToTop: true
 ---
 
