@@ -15,8 +15,8 @@ description = "A Tech Blog"
 
 # Appearance settings
 theme = 'auto'
-colorPalette = 'default'
-hideHeader = false
+colorPalette = 'catpuccin'
+hideHeader = true
 
 # Intro on main page, content is markdown
 homeIntroTitle = 'Welcome!'
@@ -35,7 +35,7 @@ homeCollection = 'posts'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = 'January 6, 2006'
+listDateFormat = 'Jan 6, 2006'
 
 # Breadcrumbs
 # breadcrumbs = true
