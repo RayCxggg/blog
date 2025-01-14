@@ -1,6 +1,6 @@
 ---
 title: "My First Post"
-date: "2025-1-14"
+date: "2025-11-14"
 summary: "My First Post."
 description: "Hello!"
 toc: true
