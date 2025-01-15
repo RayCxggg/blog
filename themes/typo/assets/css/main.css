@@ -151,10 +151,10 @@ hr {
 }
 
 .header-title {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: bold;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 10;
 }
 
 .header-title a {
