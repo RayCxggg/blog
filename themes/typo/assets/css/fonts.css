@@ -45,3 +45,51 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonPro';
+    src: url('/fonts/Crimson_Text/CrimsonPro-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
