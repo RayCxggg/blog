@@ -1,8 +1,8 @@
 ---
-title: "Vectors, Maps, and Strings"
+title: "Relearning C++"
 date: "2025-02-23T00:00:00+08:00"
-summary: "Some notes about leetcode and C++."
-description: "Hello!"
+# summary: "Some notes about C++."
+description: ""
 toc: false
 readTime: false
 autonumber: true
@@ -12,6 +12,8 @@ showTags: false
 hideBackToTop: true
 hidePagination: true
 ---
+
+Lately, I’ve been using LeetCode to prepare for an internship and was surprised by how much the C++ standard has evolved since I studied it as an undergraduate. It’s fascinating to revisit C++ and explore the new features and improvements.
 
 ## Data Structures
 
@@ -40,13 +42,51 @@ numbers.pop_back();
 // used in loops
 for (int num : numbers) {};
 
+// size
+int size = numbers.size();
+
+// check if it's empty
+bool isEmpty = numbers.empty();
+
 // sum
 int totalSum = accumulate(numbers.begin(), numbers.end(), 0);
 ```
 
-
 ### String
+
+```cpp
+#include <string>
+using namespace std;
+string str = "I love engineering."
+
+// length
+int len = str.length();
+
+// find substr
+bool isSubstr = str.find("love")
+
+// extract a substring
+string substr = str.substr(pos, len)
+
+// check if it's empty
+bool isEmpty = str.empty();
+
+```
 
 ### Unordered_map
 
 `unordered_map` is a type of associative container in the C++ Standard Library used to store key-value pairs.
+
+```cpp
+#include <unordered_map>
+using namespace std;
+unordered_map<char, int> myMap = {
+            {'I', 1},
+            {'V', 5}
+        };
+
+// Checking if a Key Exists:
+if (myMap.find(3) != myMap.end()) {
+    // Key 3 exists
+}
+```
