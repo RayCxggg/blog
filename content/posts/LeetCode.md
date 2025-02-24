@@ -1,7 +1,7 @@
 ---
 title: "Relearning C++"
 date: "2025-02-23T00:00:00+08:00"
-# summary: "Some notes about C++."
+summary: "Some notes about C++ and Leetcode."
 description: ""
 toc: false
 readTime: false
@@ -13,7 +13,7 @@ hideBackToTop: true
 hidePagination: true
 ---
 
-Lately, I’ve been using LeetCode to prepare for an internship and was surprised by how much the C++ standard has evolved since I studied it as an undergraduate. It’s fascinating to revisit C++ and explore the new features and improvements.
+Lately, I've been using LeetCode to prepare for an internship and was surprised by how much the C++ standard has evolved since I studied it as an undergraduate. It's fascinating to revisit C++ and explore the new features and improvements.
 
 ## Data Structures
 
