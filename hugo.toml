@@ -43,6 +43,10 @@ breadcrumbs = true
 name = "github"
 url = "https://github.com/RayCxggg"
 
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/xijiache"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
