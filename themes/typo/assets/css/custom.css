@@ -1,14 +1,331 @@
-/* Place custom css here */
-/* filepath: /Users/ray/Desktop/blog/themes/typo/assets/css/custom.css */
+/* Custom Styles */
+
+/* Code wrapping */
 pre {
     white-space: pre-wrap;
-    /* CSS3 */
-    white-space: -moz-pre-wrap;
-    /* Firefox */
-    white-space: -pre-wrap;
-    /* Opera <7 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
     word-wrap: break-word;
-    /* IE */
+}
+
+/* Navigation */
+.header {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-title {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em;
+    margin: 0 !important;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: var(--content-primary);
+    transition: color 0.2s ease;
+}
+
+.header-title a:hover {
+    color: var(--content-secondary);
+}
+
+.header .flex {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header p {
+    font-size: 1rem !important;
+    font-family: var(--font-body) !important;
+    margin: 0 !important;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+.header p a {
+    text-decoration: none;
+    color: var(--content-secondary);
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.header p a:hover {
+    color: var(--content-primary);
+}
+
+.header p.bold a {
+    color: var(--content-primary);
+    font-weight: 600;
+}
+
+/* Home Page */
+.intro {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+.intro-flex {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.intro-content {
+    flex: 1;
+}
+
+.intro-content h3 {
+    margin-top: 0;
+}
+
+.intro-content .social-icons {
+    margin-top: 1rem;
+}
+
+.intro-image {
+    flex: 0 0 350px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.intro-caption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--content-secondary);
+    font-style: italic;
+}
+
+.intro h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--content-primary);
+}
+
+.list-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.post-line {
+    padding: 1.5rem 0;
+    margin-bottom: 0;
+    transition: all 0.2s ease;
+}
+
+.post-line:hover {
+    padding-left: 0.5rem;
+    background-color: var(--code-background, rgba(0, 0, 0, 0.02));
+}
+
+.line-date {
+    font-size: 0.9rem !important;
+    color: var(--content-secondary) !important;
+    min-width: 130px !important;
+    max-width: 130px !important;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.line-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.line-title a {
+    text-decoration: none;
+    color: var(--content-primary);
+    transition: color 0.2s ease;
+}
+
+.line-title a:hover {
+    color: var(--content-secondary);
+}
+
+.line-summary {
+    font-size: 0.95rem !important;
+    line-height: 1.6;
+    margin-top: 0.5rem !important;
+    color: var(--content-secondary) !important;
+    font-style: italic;
+}
+
+/* Single Post Page */
+.single-intro-container {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.single-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+}
+
+.single-summary {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.single-readtime {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.single-content {
+    margin-bottom: 5rem;
+}
+
+.single-content h2 {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.single-content h3 {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.single-content p {
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+}
+
+.single-content ul,
+.single-content ol {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.single-content li {
+    margin-bottom: 0.5rem;
+}
+
+.single-content a {
+    color: var(--content-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--content-secondary);
+    text-underline-offset: 2px;
+    transition: all 0.2s ease;
+}
+
+.single-content a:hover {
+    text-decoration-color: var(--content-primary);
+    text-decoration-thickness: 2px;
+}
+
+.single-content pre {
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+.single-content code {
+    font-size: 0.9em;
+}
+
+.single-content blockquote {
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--content-secondary);
+}
+
+.back-to-top {
+    margin-top: 3rem;
+    padding-top: 2rem;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: var(--content-secondary);
+    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    transition: color 0.2s ease;
+}
+
+.back-to-top a:hover {
+    color: var(--content-primary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .header-title {
+        font-size: 1.3rem !important;
+    }
+
+    .header .flex {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .header p {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.95rem !important;
+    }
+
+    .single-title {
+        font-size: 2rem;
+    }
+
+    .line-title {
+        font-size: 1.1rem;
+    }
+
+    .post-line {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .line-date {
+        min-width: auto !important;
+        max-width: none !important;
+        text-align: left !important;
+        padding-right: 0 !important;
+        margin-bottom: 0.5rem;
+    }
+
+    .intro-flex {
+        flex-direction: column !important;
+    }
+
+    .intro-image {
+        flex: 1 1 auto !important;
+        max-width: 100% !important;
+    }
 }

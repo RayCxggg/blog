@@ -1,36 +1,20 @@
 {{ define "main" }}
 
-<style>
-    @media (max-width: 768px) {
-        .intro-flex {
-            flex-direction: column !important;
-        }
-
-        .intro-image {
-            flex: 1 1 auto !important;
-            max-width: 100% !important;
-        }
-    }
-</style>
-
 {{ .Content }}
 
-{{/* Intro summary section */}}
-
 {{ if or .Site.Params.homeIntroTitle .Site.Params.homeIntroContent .Site.Params.homeIntroImage }}
-<div class="intro intro-flex" style="display: flex; gap: 2rem; align-items: flex-start;">
-    <div style="flex: 1;">
+<div class="intro intro-flex">
+    <div class="intro-content">
         {{ with .Site.Params.homeIntroTitle }}
-        <h3 style="margin-top: 0;">{{ . }}</h3>
+        <h3>{{ . }}</h3>
         {{ end }}
 
         {{ with .Site.Params.homeIntroContent }}
         <p>{{ . | markdownify }}</p>
         {{ end }}
         
-        {{/* Social Icons */}}
         {{ with site.Params.social }}
-        <div class="social-icons" style="margin-top: 1rem;">
+        <div class="social-icons">
             {{- range . }}
             <a href="{{ trim .url " " | safeURL }}" target="_blank"
                 rel="noopener noreferrer me"
@@ -43,27 +27,21 @@
     </div>
     
     {{ with .Site.Params.homeIntroImage }}
-    <div class="intro-image" style="flex: 0 0 350px;">
-        <img src="{{ . }}" alt="Profile image" style="width: 100%; height: auto; border-radius: 8px;">
-        <p style="text-align: center; margin-top: 0.5rem; font-size: 0.9rem; color: var(--secondary); font-style: italic;">
-            Xinjiang, 2024</p>
+    <div class="intro-image">
+        <img src="{{ . }}" alt="Profile image">
+        <p class="intro-caption">Xinjiang, 2024</p>
     </div>
     {{ end }}
 </div>
 {{ end }}
 
-{{/* Collection Section */}}
-
 {{ if .Site.Params.homeCollection }}
-
 <div class="list-container">
     {{ with .Site.Params.homeCollectionTitle}}
-    <h3> {{ . }} </h3>
+    <h3>{{ . }}</h3>
     {{ end }}
 
-    {{ $pages := where .Site.RegularPages "Section" .Site.Params.homeCollection
-    }}
-
+    {{ $pages := where .Site.RegularPages "Section" .Site.Params.homeCollection }}
     {{ $paginationSize := 1}}
     {{ if (gt .Site.Params.paginationSize 0) }}
     {{ $paginationSize = .Site.Params.paginationSize }}
@@ -71,13 +49,14 @@
 
     {{ $paginator := .Paginate $pages $paginationSize }}
 
-    {{ range $index, $page := $paginator.Pages }}
-    {{ partial "post-entry.html" $page}}
-    {{ end }}
+    <div class="posts-list">
+        {{ range $index, $page := $paginator.Pages }}
+        {{ partial "post-entry.html" $page}}
+        {{ end }}
+    </div>
 
     {{ partial "pagination-controls.html" $paginator}}
-
-    {{ end }}
 </div>
+{{ end }}
 
 {{ end }}

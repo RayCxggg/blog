@@ -62,11 +62,11 @@ url = "mailto:xijiache@gmail.com"
 
 # Main menu pages
 [[params.menu]]
-name = "home"
+name = "Home"
 url = "/"
 
 [[params.menu]]
-name = "posts"
+name = "Posts"
 url = "/posts"
 
 # Syntax highlight on code blocks
