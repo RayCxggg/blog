@@ -1,11 +1,24 @@
 {{ define "main" }}
 
+<style>
+    @media (max-width: 768px) {
+        .intro-flex {
+            flex-direction: column !important;
+        }
+
+        .intro-image {
+            flex: 1 1 auto !important;
+            max-width: 100% !important;
+        }
+    }
+</style>
+
 {{ .Content }}
 
 {{/* Intro summary section */}}
 
 {{ if or .Site.Params.homeIntroTitle .Site.Params.homeIntroContent .Site.Params.homeIntroImage }}
-<div class="intro" style="display: flex; gap: 2rem; align-items: flex-start;">
+<div class="intro intro-flex" style="display: flex; gap: 2rem; align-items: flex-start;">
     <div style="flex: 1;">
         {{ with .Site.Params.homeIntroTitle }}
         <h3 style="margin-top: 0;">{{ . }}</h3>
