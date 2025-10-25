@@ -27,11 +27,10 @@ pre {
 .header-title a {
     text-decoration: none;
     color: var(--content-primary);
-    transition: color 0.2s ease;
 }
 
 .header-title a:hover {
-    color: var(--content-secondary);
+    color: #0066cc;
 }
 
 .header .flex {
@@ -46,18 +45,16 @@ pre {
     font-family: var(--font-body) !important;
     margin: 0 !important;
     padding: 0.5rem 1rem;
-    transition: all 0.2s ease;
 }
 
 .header p a {
     text-decoration: none;
     color: var(--content-secondary);
     font-weight: 400;
-    transition: color 0.2s ease;
 }
 
 .header p a:hover {
-    color: var(--content-primary);
+    color: #0066cc;
 }
 
 .header p.bold a {
@@ -130,12 +127,6 @@ pre {
 .post-line {
     padding: 1.5rem 0;
     margin-bottom: 0;
-    transition: all 0.2s ease;
-}
-
-.post-line:hover {
-    padding-left: 0.5rem;
-    background-color: var(--code-background, rgba(0, 0, 0, 0.02));
 }
 
 .line-date {
@@ -156,11 +147,10 @@ pre {
 .line-title a {
     text-decoration: none;
     color: var(--content-primary);
-    transition: color 0.2s ease;
 }
 
 .line-title a:hover {
-    color: var(--content-secondary);
+    color: #0066cc;
 }
 
 .line-summary {
@@ -236,12 +226,10 @@ pre {
     text-decoration: underline;
     text-decoration-color: var(--content-secondary);
     text-underline-offset: 2px;
-    transition: all 0.2s ease;
 }
 
 .single-content a:hover {
-    text-decoration-color: var(--content-primary);
-    text-decoration-thickness: 2px;
+    color: #0066cc;
 }
 
 .single-content pre {
@@ -270,11 +258,10 @@ pre {
     color: var(--content-secondary);
     font-size: 0.9rem;
     font-family: var(--font-mono);
-    transition: color 0.2s ease;
 }
 
 .back-to-top a:hover {
-    color: var(--content-primary);
+    color: #0066cc;
 }
 
 /* Responsive */
@@ -282,21 +269,25 @@ pre {
     .header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
+        gap: 0.75rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
     }
 
     .header-title {
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
     }
 
     .header .flex {
         width: 100%;
         justify-content: flex-start;
+        gap: 0.25rem;
     }
 
     .header p {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.95rem !important;
+        padding: 0.3rem 0.6rem;
+            font-size: 0.9rem !important;
     }
 
     .single-title {
