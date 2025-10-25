@@ -40,7 +40,7 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "email"
+name = "gmail"
 url = "mailto:xijiache@gmail.com"
 
 # Main menu pages
