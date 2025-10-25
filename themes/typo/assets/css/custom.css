@@ -8,13 +8,13 @@ pre {
 
 /* Navigation */
 .header {
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 3rem;
+    padding: 1.5rem 0;
+        margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .header-title {
@@ -44,7 +44,7 @@ pre {
     font-size: 1rem !important;
     font-family: var(--font-body) !important;
     margin: 0 !important;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
 }
 
 .header p a {
@@ -267,27 +267,20 @@ pre {
 /* Responsive */
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        align-items: flex-start;
         gap: 0.75rem;
-            padding-top: 1.5rem;
-            padding-bottom: 1rem;
-            margin-bottom: 2rem;
     }
 
     .header-title {
-        font-size: 1.2rem !important;
+        font-size: 1.25rem !important;
     }
 
-    .header .flex {
-        width: 100%;
-        justify-content: flex-start;
+        .header .flex {
         gap: 0.25rem;
     }
 
     .header p {
         padding: 0.3rem 0.6rem;
-            font-size: 0.9rem !important;
+        font-size: 0.9rem !important;
     }
 
     .single-title {
