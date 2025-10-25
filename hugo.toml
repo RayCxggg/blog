@@ -22,9 +22,11 @@ hideHeader = true
 homeIntroTitle = 'Greetings.'
 homeIntroImage = '/DSC_2375.jpg'
 homeIntroContent = """
-I am a Computer Science Ph.D. student working on AI. 
+CS Ph.D. student studying minds made of code.
 
-I dump photos, poetry, sketches, and some boring technical articles here.
+Snapshots, poems, and sketches — traces of thought in a fading world.
+
+Descendant of the Lost Global Village. 地球村遗民。
 """
 
 # Collection to display on home
