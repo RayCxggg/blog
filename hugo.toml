@@ -11,7 +11,7 @@ googleAnalytics = "G-xxxxxxxxx"
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "A Life Blog"
 
 # Appearance settings
 theme = 'auto'
@@ -19,11 +19,12 @@ colorPalette = 'default'
 hideHeader = true
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Welcome!'
+homeIntroTitle = 'Greetings.'
+homeIntroImage = '/DSC_2375.jpg'
 homeIntroContent = """
-I am a Computer Science Ph.D. student working on AI. I am currently in Illinois, USA.
+I am a Computer Science Ph.D. student working on AI. 
 
-I share my poetry, sketches, and technical articles here. Enjoy your stay!
+I dump photos, poetry, sketches, and some boring technical articles here.
 """
 
 # Collection to display on home
