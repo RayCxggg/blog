@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ray-che.com/sitemap.xml
