@@ -62,8 +62,14 @@ string str = "I love engineering."
 // length
 int len = str.length();
 
+// used in loops
+for (char c : str) {};
+
 // find substr
 bool isSubstr = str.find("love")
+
+// return the starting index of the substr
+int SubstrIdx = str.find("love")
 
 // extract a substring
 string substr = str.substr(pos, len)

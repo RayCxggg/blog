@@ -21,11 +21,9 @@ hideHeader = true
 # Intro on main page, content is markdown
 homeIntroTitle = 'Welcome!'
 homeIntroContent = """
-I am a master student in computer science with a strong interest in trustworthy machine learning. 
+I am a Computer Science Ph.D. student working on AI. 
 
-I am also deeply interested in society, culture, and history.
-
-I regularly post blogs and articles in both Chinese and English.
+And, this is where I share my observations and thoughts on society and technology.
 """
 
 # Collection to display on home
