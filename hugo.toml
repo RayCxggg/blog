@@ -21,9 +21,9 @@ hideHeader = true
 # Intro on main page, content is markdown
 homeIntroTitle = 'Welcome!'
 homeIntroContent = """
-I am a Computer Science Ph.D. student working on AI. 
+I am a Computer Science Ph.D. student working on AI. I am currently in Illinois, USA.
 
-And, this is where I share my observations and thoughts on society and technology.
+I share my poetry, sketches, and technical articles here. Enjoy your stay!
 """
 
 # Collection to display on home
@@ -40,12 +40,8 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "github"
-url = "https://github.com/RayCxggg"
-
-[[params.social]]
-name = "linkedin"
-url = "https://linkedin.com/in/xijiache"
+name = "email"
+url = "mailto:xijiache@gmail.com"
 
 # Main menu pages
 [[params.menu]]
