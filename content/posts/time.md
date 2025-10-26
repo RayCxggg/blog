@@ -15,6 +15,16 @@ hidePagination: true
 
 <div style="text-align: center;">
 
+![Champaign, 2025](/DSC_2794.jpg)
+
+<em style="font-size: 0.9rem; color: var(--content-secondary);">Champaign, 2025</em>
+
+</div>
+
+---
+
+<div style="text-align: center;">
+
 我想停下来<br>
 静静欣赏半红的枫叶<br>
 再去小小的早餐店坐下<br>
@@ -62,13 +72,5 @@ It turns out<br>
 Time poverty is the greatest poverty<br>
 
 _Translation by Claude_
-
-</div>
-
-<div style="text-align: center; margin-top: 3rem;">
-
-![Champaign, 2025](/DSC_2794.jpg)
-
-<em style="font-size: 0.9rem; color: var(--content-secondary);">Champaign, 2025</em>
 
 </div>
