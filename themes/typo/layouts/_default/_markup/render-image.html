@@ -9,10 +9,10 @@ https://github.com/gohugoio/hugo/blob/89bd02/tpl/tplimpl/embedded/templates/_def
 {{- if not $u.IsAbs -}}
   {{- $path := strings.TrimPrefix "./" $u.Path -}}
   {{/* Check if this is a page bundle or standalone page */}}
-  {{- if .PageInner.Resources -}}
-    {{- $imgResource = .PageInner.Resources.Get $path -}}
-  {{- else if (or .PageInner.Parent .PageInner.Parent.Resources) -}}
-    {{- $imgResource = .PageInner.Parent.Resources.Get $path -}}
+  {{- if .Page.Resources -}}
+  {{- $imgResource = .Page.Resources.Get $path -}}
+  {{- else if (and .Page.Parent .Page.Parent.Resources) -}}
+  {{- $imgResource = .Page.Parent.Resources.Get $path -}}
   {{- end -}}
   {{- $imgResource := or $imgResource (resources.Get $path) -}}
   {{- with $imgResource -}}
