@@ -62,6 +62,10 @@ breadcrumbs = true
 name = "gmail"
 url = "mailto:xijiache@gmail.com"
 
+[[params.social]]
+name = "rss"
+url = "/index.xml"
+
 # Main menu pages
 [[params.menu]]
 name = "Home"
@@ -70,6 +74,10 @@ url = "/"
 [[params.menu]]
 name = "Posts"
 url = "/posts"
+
+[[params.menu]]
+name = "Subscribe"
+url = "/subscribe"
 
 # Syntax highlight on code blocks
 [markup]
