@@ -74,6 +74,10 @@ url = "/posts"
 [markup.highlight]
 style = 'github'
 
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 # Giscus comments
 [params.giscus]
 enable = true
