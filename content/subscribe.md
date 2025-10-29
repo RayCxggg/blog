@@ -50,16 +50,3 @@ Pick a reader that works for you:
 #### 3. Enjoy
 
 Your RSS reader will check for new posts and show them in a clean, ad-free reading experience. No algorithms, no distractions, just content.
-
----
-
-### Why RSS?
-
-- **Privacy:** No tracking, no email collection
-- **Control:** Read on your schedule, not an algorithm's
-- **Simplicity:** All your favorite blogs in one place
-- **Timeless:** RSS has worked reliably since 1999
-
-### Questions?
-
-Feel free to reach out: [xijiache@gmail.com](mailto:xijiache@gmail.com)

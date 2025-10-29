@@ -21,6 +21,8 @@ hidePagination: true
 
 </div>
 
+<div id="chinese-text"></div>
+
 ---
 
 <div style="text-align: center;">
@@ -46,6 +48,8 @@ hidePagination: true
 时间贫困是最大的贫困
 
 </div>
+
+<div id="english-translation"></div>
 
 ---
 

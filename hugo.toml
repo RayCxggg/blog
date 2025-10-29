@@ -63,6 +63,11 @@ name = "gmail"
 url = "mailto:xijiache@gmail.com"
 
 [[params.social]]
+name = "homepage"
+url = "https://www.ray-che.com/"
+title = "Academic Homepage"
+
+[[params.social]]
 name = "rss"
 url = "/index.xml"
 

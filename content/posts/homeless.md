@@ -21,7 +21,10 @@ hidePagination: true
 
 </div>
 
+<div id="chinese-text"></div>
+
 ---
+
 绿街是小城上最繁华的街道。
 
 我走上绿街，远远地看到地上有一片毯子在挪动。走近后，我才注意到瘦窄的她。她上半身黑色的夹克衫，已有一半隐匿进背景。
@@ -33,6 +36,8 @@ hidePagination: true
 但它的图腾之一声名远扬。我想告诉她，其实那毯子有点像超人的披风。
 
 我在每个人身上看到披风。
+
+<div id="english-translation"></div>
 
 ---
 
