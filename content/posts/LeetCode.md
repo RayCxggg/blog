@@ -9,8 +9,9 @@ autonumber: true
 math: true
 tags: ["database", "java"]
 showTags: false
-hideBackToTop: true
+# hideBackToTop: true
 hidePagination: true
+hideLanguageButtons: true
 ---
 
 Lately, I've been using LeetCode to prepare for an internship and was surprised by how much the C++ standard has evolved since I studied it as an undergraduate. It's fascinating to revisit C++ and explore the new features and improvements.

@@ -148,26 +148,10 @@
     }
   </style>
   
-  <div class="language-buttons" id="languageButtons">
+  <div class="language-buttons">
     <a href="#chinese-text">中文</a>
     <a href="#english-translation">English</a>
   </div>
-
-  <script>
-    (function() {
-      const content = document.querySelector('.single-content');
-      if (!content) return;
-      
-      const hasEnglishTranslation = content.innerHTML.includes('Translation by Claude') || 
-                                   content.innerHTML.includes('_Translation by Claude_') ||
-                                   document.getElementById('english-translation');
-      
-      if (!hasEnglishTranslation) {
-        const buttons = document.getElementById('languageButtons');
-        if (buttons) buttons.style.display = 'none';
-      }
-    })();
-  </script>
   {{ end }}
 
 </div>
