@@ -38,9 +38,7 @@ homeIntroImage = '/DSC_2375.jpg'
 homeIntroContent = """
 CS Ph.D. student studying minds made of code.
 
-Snapshots, poems, and sketches — traces of thought in a fading world.
-
-Descendant of the Lost Global Village. 
+Snapshots, poems, and stories.
 
 地球村遗民。
 """
@@ -59,13 +57,13 @@ breadcrumbs = true
 
 # Social icons
 [[params.social]]
-name = "gmail"
-url = "mailto:xijiache@gmail.com"
-
-[[params.social]]
 name = "homepage"
 url = "https://www.ray-che.com/"
 title = "Academic Homepage"
+
+[[params.social]]
+name = "gmail"
+url = "mailto:xijiache@gmail.com"
 
 [[params.social]]
 name = "rss"
