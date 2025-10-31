@@ -56,24 +56,24 @@ hidePagination: true
 <div style="text-align: center; margin-top: 3rem;">
 
 I want to stop<br>
-To quietly admire the half-red maple leaves<br>
-Then sit down in a small breakfast shop<br>
-Watching the traffic passing by outside the window
+To sit still with the half-red maple leaves<br>
+To find a small breakfast café<br>
+And watch the world pass by the window
 
-I could read, write<br>
-And pick up my camera again<br>
-I'm no longer used to its weight
+I could read, I could write<br>
+I could lift my camera again<br>
+Though I've forgotten how heavy it feels
 
 
-If I had enough time<br>
-I could slowly complete<br>
-Assignments and papers<br>
-I could appreciate their beauty
+If I had time<br>
+I could take my time<br>
+With assignments, with papers<br>
+I could see the beauty in them
 
-But I have no time<br>
-I'm always in a hurry<br>
-It turns out<br>
-Time poverty is the greatest poverty<br>
+But there is no time<br>
+I'm always rushing<br>
+Now I understand:<br>
+Time poverty is the deepest poverty of all<br>
 
 _Translation by Claude_
 

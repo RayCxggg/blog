@@ -41,15 +41,15 @@ hidePagination: true
 
 ---
 
-Green Street is the most prosperous street in this small city.
+Green Street is the busiest street in this small city.
 
-As I walked onto Green Street, I saw from afar a blanket moving on the ground. Only when I got closer did I notice her slender, frail figure. The black jacket on her upper body had already half-blended into the background.
+Walking down Green Street, I saw something moving on the pavement in the distance—a blanket, shifting slowly. Only when I came closer did I see her: thin, hunched, almost disappearing. Her black jacket was already half-swallowed by the shadows.
 
-I didn't dare turn back to look at her face. That action could be interpreted in too many ways: I'm sizing her up, I pity her, I despise her, I mock her. Between her and the people around her, beyond the simple divide of having shelter or not, there exists another layer of social fence separating the crowds.
+I didn't dare look back at her face. The gesture could mean too many things: judgment, pity, contempt, mockery. Between her and everyone else passing by, there's more than just the divide between housed and unhoused—there's an invisible fence, a social barrier that keeps us all apart.
 
-I remember last week, at the same spot, a young white man sat right beside her, chatting with her. I too wanted to hear her story, but I'm a cultural outsider to this civilization—with curiosity, yes, but also with fear.
+Last week, I saw a young white man sitting beside her at this same spot, talking with her. I wanted to hear her story too. But I'm an outsider here, drawn to this civilization with equal parts curiosity and fear.
 
-Yet one of its totems is world-renowned. I wanted to tell her that the blanket is actually a bit like Superman's cape.
+Still, one of its symbols is known the world over. I wanted to tell her: that blanket of yours—it looks a little like Superman's cape.
 
 I see capes on everyone.
 
