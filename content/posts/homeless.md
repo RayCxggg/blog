@@ -23,7 +23,7 @@ hidePagination: true
 
 <div id="chinese-text"></div>
 
----
+<!-- --- -->
 
 绿街是小城上最繁华的街道。
 
