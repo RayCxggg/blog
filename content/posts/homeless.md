@@ -13,13 +13,13 @@ showTags: false
 hidePagination: true
 ---
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 
 ![Champaign, 2025](/homeless.jpeg)
 
 <em style="font-size: 0.9rem; color: var(--content-secondary);">Champaign, 2025</em>
 
-</div>
+</div> -->
 
 <div id="chinese-text"></div>
 
